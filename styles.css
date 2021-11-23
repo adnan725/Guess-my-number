@@ -1,0 +1,146 @@
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background-color: rgb(253, 242, 233);
+}
+
+main {
+  position: relative;
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(240, 240, 240, 0.4),
+    rgba(97, 73, 53, 0.8)
+  );
+  height: 100vh;
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-part *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem rgba(253, 242, 233, 0.5);
+}
+
+.heading {
+  font-size: 64px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.range {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 9px 32px;
+  border-radius: 7px;
+  border: none;
+  background-color: #e67e22;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+
+  transition: all 300ms;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #cf711f;
+}
+
+.btn--again {
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+hr {
+  border-top: 1px solid #e67e22;
+  margin-bottom: 80px;
+}
+
+.bottom-part {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.guess {
+  width: 30%;
+  height: 100px;
+  font-size: 48px;
+  text-align: center;
+  background-color: #e67e22;
+  opacity: 0.8;
+  border: none;
+  border-radius: 7px;
+}
+
+.left *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem rgba(253, 242, 233, 0.5);
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  padding-left: 150px;
+  flex-direction: column;
+
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.start--guessing {
+  margin-bottom: 48px;
+  font-size: 32px;
+}
+
+.score {
+  font-size: 32px;
+}
+.highscore {
+  font-size: 32px;
+}
+
+.question-mark {
+  width: 17%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e67e22;
+  background-color: #e67e22;
+  font-size: 64px;
+  border-radius: 7px;
+
+  position: absolute;
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, -50%);
+}
