@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: rgb(253, 242, 233);
+  background-color: #000;
   color: rgb(253, 242, 233);
 }
 
@@ -79,6 +79,8 @@ hr {
 
 .bottom-part {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left {
@@ -109,11 +111,11 @@ hr {
 .right {
   width: 50%;
   display: flex;
-  padding-left: 150px;
+  /* padding-left: 150px; */
   flex-direction: column;
 
   gap: 24px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 

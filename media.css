@@ -1,0 +1,113 @@
+/**********************************/
+/* Screen size 900px (56.25em)*/
+/**********************************/
+@media (max-width: 56.25em) {
+  .heading {
+    font-size: 48px;
+  }
+
+  .right {
+    /* padding-left: 120px; */
+  }
+
+  .question-mark {
+    width: 30%;
+  }
+
+  .guess {
+    width: 50%;
+  }
+}
+
+/**********************************/
+/* Screen size 752px (47em)*/
+/**********************************/
+@media (max-width: 47em) {
+  .heading {
+    font-size: 32px;
+  }
+
+  .right,
+  .left {
+    width: 100%;
+  }
+
+  .bottom-part {
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 150px;
+  }
+
+  .question-mark {
+    width: 30%;
+  }
+
+  .guess {
+    width: 30%;
+  }
+}
+
+/**********************************/
+/* Screen size 610px (38.125em)*/
+/**********************************/
+
+@media (max-width: 38.125em) {
+  .heading {
+    font-size: 24px;
+    margin: 80px 0;
+  }
+
+  .right,
+  .score,
+  .highscore,
+  .start--guessing {
+    font-size: 24px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  /**********************************/
+/* Screen size 540px (33.75em)*/
+/**********************************/
+
+@media (max-width: 38.125em) {
+  .heading {
+    font-size: 18px;
+    margin: 80px 0;
+  }
+
+  .range {
+    font-size: 16px;
+  }
+}
+
+  /**********************************/
+/* Screen size 462px (28.875em)*/
+/**********************************/
+
+@media (max-width: 28.875em) {
+  .heading {
+    font-size: 16px;
+  }
+
+  .range {
+    font-size: 12px;
+  }
+
+  .guess {
+    width: 45%;
+  }
+
+  .question-mark {
+    width: 45%;
+    top: 25%;
+  }
+
+  .start--guessing {
+    margin-bottom: 24px;
+  }
+
+}
