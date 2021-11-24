@@ -135,4 +135,9 @@
     top: 22%;
   }
 
+  .victory--hidden {
+    width: 50%;
+    height: 50%;
+  }
+
 }
