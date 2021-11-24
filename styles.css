@@ -1,5 +1,5 @@
 * {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   box-sizing: border-box;
   margin: 0;
 }
@@ -11,7 +11,7 @@ html {
 
 main {
   position: relative;
-  background-image: url("background.jpg");
+  background-image: url('background.jpg');
   background-size: cover;
   height: 100vh;
 }
@@ -38,7 +38,7 @@ main {
 
 .heading {
   font-size: 64px;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-bottom: 50px;
 }
 
@@ -137,11 +137,11 @@ hr {
   justify-content: center;
   border: 2px solid #e67e22;
   background-color: #e67e22;
-  font-size: 64px;
+  font-size: 72px;
   border-radius: 7px;
 
   position: absolute;
   left: 50%;
-  top: 32%;
+  top: 30.5%;
   transform: translate(-50%, -50%);
 }
